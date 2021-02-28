@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <title></title>
+  <title>Топ 5</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>Заголовок страницы</header>
+<header>Топ 5 наушников до 100 $</header>
 
 <nav>Меню навигации</nav>
 
