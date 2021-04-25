@@ -11,15 +11,16 @@
      <div id="header">
          <header>
              <nav class="top-menu">
-                 <a class="navbar-logo" href=""><img src=logo.jpg></a>
+                 <a class="navbar-logo" href=""><img src=img/logo.jpg></a>
                  <ul class="menu-main">
-                     <li><a href="">Главная</a></li>
+                     <li><a href="pilaba.html">Главная</a></li>
                      <li><a href="">Рубрики</a></li>
                      <li><form action="" method="get">
                          <input type="text" placeholder="Искать здесь...">
                          <button type="submit"></button>
                      </form>
                      </li>
+                     <li class="qwe"><a href="pilaba2.html">Регистрация</a></li>
                  </ul>
              </nav>
          </header>
@@ -28,23 +29,18 @@
          <div id="main" class="col-left">
              <div class="form-wrap">
                  <h1>Регистрация</h1>
-                 <form method="post" action="form.php">
-                     <div>
-                         <label for="name">Имя</label>
-                         <input type="text" name="name" required>
-                     </div>
-                     <div>
-                         <label for="psw">Имя</label>
-                         <input type="password" name="psw" required>
-                     </div>
-                     <div>
-                         <label for="email">email</label>
-                         <input type="email" name="email" required>
-                     </div>
+                 <form method="post" action="index1.php">
 
-
-
-
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" required>
+                     
+                    <label for="psw">Пароль</label>
+                    <input type="password" name="password" required>
+                     
+                    <label for="email">email</label>
+                    <input type="email" name="email" required>
+                     
+                    <p><input type="submit" value="Отправить"/></p>
 
                  </form>
              </div>
